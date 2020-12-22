@@ -1,0 +1,25 @@
+.exercise_1 {
+  margin: 5px;
+  border-radius: 25px;
+border: 2px solid #bfbfbf;
+padding: 20px;
+width: auto;
+height: auto;
+}
+
+.exercise_2 {
+  margin: 5px;
+  border-radius: 25px;
+border: 2px solid #bfbfbf;
+padding: 20px;
+width: auto;
+height: auto;
+}
+
+.answer {  
+  text-align: center;
+  border-radius: 10px;
+border: 2px solid #bfbfbf;
+width: auto;
+height: auto;
+}
