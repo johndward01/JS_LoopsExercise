@@ -28,21 +28,21 @@ let o1 = {
 
 let a1 = document.getElementById("answer1");
 a1.innerHTML = "<h4>Properties</h4>";
-for (x in p1) {
+/*TODO: Create a for/in Loop here */ {
     a1.insertAdjacentHTML('afterend', `<p>${x}</p>`);
 }
 
 
 let a2 = document.getElementById("answer2");
 a2.innerHTML = "<h4>Properties</h4>";
-for (y in c1) {
+/*TODO: Create a for/in Loop here */ {
     a2.insertAdjacentHTML('afterend', `<p>${y}</p>`);
 }
 
 
 let a3 = document.getElementById("answer3");
 a3.innerHTML = "<h4>Properties</h4>";
-for (z in o1) {
+/*TODO: Create a for/in Loop here */ {
     a3.insertAdjacentHTML('afterend', `<p>${z}</p>`);
 }
 
@@ -53,7 +53,7 @@ let myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let a4 = document.getElementById("answer4");
 let text = "";
 a4.innerHTML = "<h4>Values</h4>";
-for (a of myArray) {
+/*TODO: Create a for/of Loop here */ {
     text += `${a}, `;
 }
 text = text.slice(0, -2); // -2 because we're cutting off the empty space AND the comma
@@ -71,7 +71,7 @@ mySet.add({ name: "John Doe", age: 24 });
 let a5 = document.getElementById("answer5");
 let txt = "";
 a5.innerHTML = "<h4>Values</h4>";
-for (b of mySet) {
+/*TODO: Create a for/of Loop here */ {
     txt += `${b}, `;
 }
 txt = txt.substring(0, txt.length - 2);
@@ -87,7 +87,7 @@ myMap.set("Jane", { phone: "555-555-5555", address: "111 Easy St" });
 let a6 = document.getElementById("answer6");
 let str = "";
 a6.innerHTML = "<h4>Values</h4>";
-for (c of myMap) {
+/*TODO: Create a for/of Loop here */ {
     str += `${c}<br>`;
 }
 str = str.slice(0, -2);
