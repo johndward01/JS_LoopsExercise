@@ -1,4 +1,5 @@
 .exercise_1 {
+  text-align: center;
   margin: 5px;
   border-radius: 25px;
 border: 2px solid #bfbfbf;
@@ -8,6 +9,17 @@ height: auto;
 }
 
 .exercise_2 {
+  text-align: center;
+  margin: 5px;
+  border-radius: 25px;
+border: 2px solid #bfbfbf;
+padding: 20px;
+width: auto;
+height: auto;
+}
+
+.exercise_3 {
+  text-align: center;
   margin: 5px;
   border-radius: 25px;
 border: 2px solid #bfbfbf;
@@ -23,3 +35,4 @@ border: 2px solid #bfbfbf;
 width: auto;
 height: auto;
 }
+
